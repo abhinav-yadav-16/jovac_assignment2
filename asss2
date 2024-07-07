@@ -1,0 +1,50 @@
+Question 1: b) using <link> tag
+Explanation: The <link> tag is used to link an external CSS file to an HTML document.
+
+Question 2: b) using p tag
+Explanation: The <p> tag is used to define a paragraph in HTML.
+
+Question 3: b) false
+Explanation: The <div> tag is a block-level element, not an inline-block element.
+
+Question 4: a) true
+Explanation: The <span> tag is an inline element, which means it is displayed inline with other elements.
+
+Question 5: a) 100
+Explanation: The code calculates the value of c as y raised to the power of y, which is 10^10 = 100.
+
+Question 6: C) Create an array of objects for people who are above 30 years old, and you only need their names and ages (no id property).
+Explanation: You can use the filter function to filter the array and then use the map function to create a new array with only the required properties.
+
+Question 7:
+Verify
+Open In Editor
+Edit
+Copy code
+function main(cb1, cb2, x, y) {
+  console.log(cb1(x, y)); // outputs the sum of x and y
+  console.log(cb2(x, y)); // outputs the difference of x and y
+}
+function cb1(x, y) {
+  return x + y;
+}
+function cb2(x, y) {
+  return x - y;
+}
+main(cb1, cb2, 11, 4);
+Explanation: The main function takes two callback functions cb1 and cb2 and two numbers x and y as parameters. The cb1 function adds two numbers, and the cb2 function calculates the difference of two numbers.
+
+Question 8: c) map function
+Explanation: The map function can be used to create a new array with the desired output by applying a transformation function to each element of the original array.
+
+Question 10: C) []
+Explanation: The filter function returns a new array with only the elements that pass the test implemented by the provided function. In this case, the function always returns false, so the resulting array is empty.
+
+Question 11: B) display : none removes the element from the dom while visibility : hidden just hides the element.
+Explanation: The display: none property removes the element from the DOM, while the visibility: hidden property hides the element but still occupies space in the DOM.
+
+Question 12: A) 4 10 18
+Explanation: The code uses a while loop to increment a and calculate b as a multiplied by 2. The output is the values of b at each iteration.
+
+Question 13: A) [1,2,3,4]
+Explanation: The unshift method adds an element to the beginning of the array, and the shift method removes the first element of the array. In this case, the unshift method adds 100 to the beginning of the array, and then the shift method removes the first element (100), resulting in the original array [1,2,3,4].
